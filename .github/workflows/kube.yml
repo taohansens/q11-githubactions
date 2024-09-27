@@ -52,4 +52,4 @@ jobs:
 
       - name: Deploy to Kubernetes
         run: |
-          kubectl set image deployment/spring-boot-app spring-boot-container=seu-usuario/your-app:${{ github.sha }}
+          kubectl set image deployment/devops spring-boot-container=taohans/devops:${{ github.sha }}
